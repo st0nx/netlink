@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"syscall"
 
-	"github.com/vishvananda/netlink/nl"
+	"github.com/monsterzz/netlink/nl"
 )
 
 // Fw filter filters on firewall marks

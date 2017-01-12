@@ -632,6 +632,7 @@ type Iptun struct {
 	Link     uint32
 	Local    net.IP
 	Remote   net.IP
+	Type     string
 }
 
 func (iptun *Iptun) Attrs() *LinkAttrs {
@@ -639,7 +640,11 @@ func (iptun *Iptun) Attrs() *LinkAttrs {
 }
 
 func (iptun *Iptun) Type() string {
-	return "ipip"
+	if iptun.Type == "" {
+		return "ipip"
+	}
+
+	return iptun.Type
 }
 
 type Vti struct {

@@ -13,7 +13,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/monsterzz/netlink/nl"
+	"github.com/st0nx/netlink/nl"
 	"github.com/vishvananda/netns"
 )
 

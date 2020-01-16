@@ -7,7 +7,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/monsterzz/netlink/nl"
+	"github.com/st0nx/netlink/nl"
 )
 
 // NOTE function is here because it uses other linux functions

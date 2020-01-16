@@ -4,7 +4,7 @@ import (
 	"errors"
 	"syscall"
 
-	"github.com/monsterzz/netlink/nl"
+	"github.com/st0nx/netlink/nl"
 )
 
 // NOTE: function is in here because it uses other linux functions

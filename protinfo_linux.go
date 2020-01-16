@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"syscall"
 
-	"github.com/monsterzz/netlink/nl"
+	"github.com/st0nx/netlink/nl"
 )
 
 func LinkGetProtinfo(link Link) (Protinfo, error) {
